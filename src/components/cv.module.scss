@@ -1,0 +1,51 @@
+.card {
+    background-color: rgba(253, 253, 253, 0.123);
+    box-shadow: 4px 4px 5px 0px rgba(255, 255, 255, 0.158), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin: 0px auto;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 100vh;
+
+        @extend .card;
+
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+        .header {
+            @extend .card;
+            width: 100%;
+
+
+
+        }
+
+        .right {
+
+           
+
+            display: flex;
+            flex-direction: column;
+            @extend .card;
+            width: 100%;
+
+
+        }
+
+    }
+}
