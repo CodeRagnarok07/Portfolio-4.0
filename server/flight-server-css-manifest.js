@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css_mods__":{"/home/angel/p/ragnarok/src/app/cv2/page":["/home/angel/p/ragnarok/src/app/cv2/styles.scss","/home/angel/p/ragnarok/src/styles/tailwind.css"]},"/home/angel/p/ragnarok/src/app/cv2/layout.jsx":["/home/angel/p/ragnarok/src/styles/tailwind.css","/home/angel/p/ragnarok/src/app/cv2/styles.scss"]}
