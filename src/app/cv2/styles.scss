@@ -1,7 +1,143 @@
-
-.card_shadow{
+.card_shadow {
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     width: 100%;
     margin: 0.5rem;
     border-radius: 1rem;
+}
+
+
+
+span {
+    text-decoration-line: underline;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+
+a>i,
+i,
+.icon {
+    width: 15px;
+    height: 15px;
+
+    svg {
+        width: 15px;
+        height: 15px;
+        fill: white;
+
+        path {
+            fill: white;
+
+        }
+
+    }
+}
+
+
+.right {
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+    // h-full p-8
+    h1 {
+
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        text-shadow: 2px 4px 7px gray;
+
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        line-height: 1.121rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        text-decoration-line: underline;
+    }
+
+    h3 {
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: 640;
+    }
+
+
+    ul {
+        margin-left: 3rem;
+
+        li {
+            list-style: disc;
+
+        }
+    }
+
+    .item {
+        margin: 1.5rem 0 0 0.5rem;
+    }
+
+    .sub_item {}
+
+
+
+}
+
+.left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    .item {
+        margin-top: 4rem;
+
+        @media (min-width: 600px) {
+            margin-left:3rem;
+            margin-right:3rem;
+        }
+    }
+
+    h3 {
+        text-decoration-line: underline;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+
+        i {
+            margin-right: 0.25rem;
+        }
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+        line-height:1rem ;
+
+        h2 {
+            display: flex;
+            overflow-wrap: break-word;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            text-decoration-line: underline;
+            width: 100%;
+        }
+
+        hr {
+            margin-left: 0.5rem;
+            border-color: white;
+            border-top-width: 0.25rem;
+            width: 100%;
+        }
+    }
+
+
+
 }
