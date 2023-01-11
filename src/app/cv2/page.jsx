@@ -51,7 +51,7 @@ export default function page() {
                 </div>
 
 
-                <div className="item">
+                <div className="item mb-10">
                     <div className="title">
                         <h2>Sobre Mi </h2>
                         <hr />

@@ -4,7 +4,7 @@ import React from 'react'
 export default function skills() {
     return (
 
-        <div className='flex flex-col gap-8'>
+        <div className='flex flex-col gap-2'>
 
 
             <div>
@@ -184,7 +184,7 @@ export default function skills() {
 
 
             <div>
-                <h3>Herramientas <br /> y servicios</h3>
+                <h3>Herramientas y servicios</h3>
                 <ul className='gap-20'>
                     <li><i><svg xmlns="http://www.w3.org/2000/svg" width="97" height="96" viewBox="0 0 97 96" fill="none">
                         <g clip-path="url(#clip0_15_36)">
